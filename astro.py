@@ -9,7 +9,7 @@ data = res.json()
 print(res.status_code)
 
 people_dict = data["people"]
-# print(data)
+print(data)
 
 try:
   for i in range(5):
